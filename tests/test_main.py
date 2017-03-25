@@ -39,6 +39,3 @@ class TestCreateBox(unittest.TestCase):
     
     def test_third_box(self):
         self.assertEqual(create_box(3,24,'x'), third_box_expected)
-
-    def test_fourth_box(self):
-        self.assertEqual(create_outlined_box(6,8,'@'), fourth_box_expected)
